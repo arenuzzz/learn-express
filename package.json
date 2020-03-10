@@ -1,0 +1,26 @@
+{
+  "name": "learn-express",
+  "version": "0.0.1",
+  "description": "Learn node.js framework express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickonov/learn-express.git"
+  },
+  "author": "arenuzzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickonov/learn-express/issues"
+  },
+  "homepage": "https://github.com/nickonov/learn-express#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}
