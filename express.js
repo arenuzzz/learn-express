@@ -1,8 +1,9 @@
 const express = require("express");
+
 const booksRouter = express.Router();
 const app = express();
 
-const products = ["Apple", "Pen", "Pen1"];
+const products = ["Apple", "Pen", "Pen1z", "Pen1С"];
 
 //Pug
 // app.set("view engine", "pug");
@@ -10,11 +11,11 @@ const products = ["Apple", "Pen", "Pen1"];
 //Ejs
 app.set("view engine", "ejs");
 
-
 app.set("views", "./views");
 
 app.use((req, res, next) => {
   console.log(req.url);
+
   next();
 });
 

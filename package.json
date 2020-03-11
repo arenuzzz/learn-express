@@ -4,7 +4,8 @@
   "description": "Learn node.js framework express.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start:express": "nodemon express.js",
+    "start:node": "nodemon node.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
