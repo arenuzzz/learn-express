@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/nickonov/learn-express#readme",
   "dependencies": {
-    "@arenuzzz/alias-config": "0.0.2-alpha.0.0.5",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
